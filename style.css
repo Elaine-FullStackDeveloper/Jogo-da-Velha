@@ -1,0 +1,53 @@
+body {
+    text-align: center; /*centraliza todo o conteúdo*/
+    background-color: #A9A9A9;
+    font-family: Calibri,sans-serif;
+}
+
+.margin{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.inicio{
+    background-color: #E9967A;
+    color: black;
+}
+
+.quadrado {
+    text-align: center; /*centraliza o quadrado no centro*/
+    width: 150px; /*largura*/
+    height: 150px; /*altura*/
+    background: white; /*cor de fundo*/
+    display: inline-block; /*alinha o conteúdo na mesma linha*/
+    padding: 40px; /*margem para dentro do conteúdo*/
+    font-size: 50px; /*tamanho da fonte*/
+    margin: 5px; /*margem para fora do conteúdo*/
+    cursor: pointer; /*mostra que o quadrado é clicável*/
+    color: white; /*cor da fonte*/
+}
+
+.jogador, .vencedor {
+    font-size: 20px; /*tamanho da fonte*/
+    margin-top: 10px; /*margem do topo fora do conteúdo*/
+}
+
+button {
+    margin-top: 10px; /*margem do topo fora do conteúdo*/
+    width: 180px; /*largura*/
+    height: 40px; /*altura*/
+    background: #A9A9A9; /*cor de fundo*/
+    cursor: pointer; /*mostra que o quadrado é clicável*/
+    border: none;
+    border-radius: 20px;
+}
+
+.margin-footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bg-footer{
+    background-color: black;
+    color:  white;
+}
